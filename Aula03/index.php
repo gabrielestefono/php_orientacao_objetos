@@ -31,7 +31,7 @@ class Login{
     }
 }
 
-$logar = new Login();
+$logar = new Login('gabriel@mail.com', 'asdasd', 'asdasdas');
 $logar->setEmail('teste()/@teste.com');
 $logar->setSenha('123456');
 $logar->logar();
